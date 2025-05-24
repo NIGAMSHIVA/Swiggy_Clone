@@ -4,7 +4,6 @@ export const RestaurantCard = ({ resDataKey }) => {
   const resKey = resDataKey?.card?.card?.info;
   const {avgRating,cuisines,costForTwo} = resDataKey?.card?.card?.info;
 
-  console.log(resKey.cloudinaryImageId);
 
   return (
     <div className="resCard">
