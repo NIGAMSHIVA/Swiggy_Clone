@@ -35,6 +35,7 @@ export const Header = () => {
             }}
           >{logFunction()}</button>
         </ul>
+        
       </div>
     </div>
   );
