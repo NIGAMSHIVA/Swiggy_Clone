@@ -5,16 +5,11 @@ import { useState } from "react";
 export const Header = () => {
   const [log, setLog] = useState(true);
 
-  const Fn = () => {
-    setLog(!log);
-  };
+
 
   const logFunction = () => {
-    return log ? "login" : (
-      
+    return log ? "login" : 
       "logout"
-     
-    )
   }
 
   return (
@@ -31,7 +26,7 @@ export const Header = () => {
           <button
             className="logout-button"
             onClick={() => {
-              Fn();
+              setLog(!log);
             }}
           >{logFunction()}</button>
         </ul>

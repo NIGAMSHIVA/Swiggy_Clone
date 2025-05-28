@@ -72,3 +72,9 @@ text-align: center;}
     width: 52px;
 }
 
+.top-Rated{
+    display: flex;
+}
+.search_functionality{
+    padding: 10px;
+}
