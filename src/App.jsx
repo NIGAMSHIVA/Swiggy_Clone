@@ -6,15 +6,16 @@ import { Body } from "./components/Body";
 
 import { About } from "./components/About"
 import {Error} from "./components/Error"
+import {Contacts} from "./components/Contacts"
 
-import {createBrowserRouter,RouterProvider} from "react-router-dom"
+import {createBrowserRouter,RouterProvider,Outlet} from "react-router-dom"
 
 
 const Applayout = () => {
   return (
     <div className="App">
       <Header />
-      <Body />
+      <Outlet />
     </div>
   );
 };
@@ -23,14 +24,25 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Applayout />,
-    errorElement:<Error />
+    children:[{
+
+      path:"/about",
+      element:<About />
+
+    },
+    {
+      path:"/",
+      element:<Body />
+
+    },
+    {
+      path:"/contacts",
+      element:<Contacts />
+    }
+  ]
   
   },
-  {
-    path: "/about",
-    element:<About />
 
-  }
   
 ])
 

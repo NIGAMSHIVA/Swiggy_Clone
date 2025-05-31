@@ -93,6 +93,11 @@ that element will be called.RouterProvider is a compnent which accept {router} a
 createBrowserRouter,so we write root.render(<RouteProvider router={router}>).
 
 
+26.react-router-dom also provides us errorElement which is a route config which help us to render the error component 
+if the Error Happens and also it provides useRouteError(),it is a hook given by the react-router-dom Help us to give the 
+object form error message to make our page dynamic to represent our error like 400 or 500.useRouteError() hook should
+be used only inside the component which is rendered when the errorElement triggers
+
 
 
 
