@@ -1,16 +1,21 @@
 import { CDN_Logo } from "../utils/constant";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export const Header = () => {
+
+  console.log("Renders");
+
+
   const [log, setLog] = useState(true);
 
-
+   useEffect(() => {
+    console.log("Re-rendered")
+  },[log])
 
   const logFunction = () => {
-    return log ? "login" : 
-      "logout"
-  }
+    return log ? "login" : "logout";
+  };
 
   return (
     <div className="header">
@@ -28,9 +33,10 @@ export const Header = () => {
             onClick={() => {
               setLog(!log);
             }}
-          >{logFunction()}</button>
+          >
+            {logFunction()}
+          </button>
         </ul>
-        
       </div>
     </div>
   );

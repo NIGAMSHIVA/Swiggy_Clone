@@ -48,7 +48,7 @@ export const Body = () => {
             className="search_Restaurants"
             onClick={() => {
               const searchRes = dummyVar.filter((x) =>
-                x?.card?.card?.info?.name?.includes(placeValue)
+                x?.card?.card?.info?.name.toLowerCase()?.includes(placeValue.toLowerCase())
               );
 
               

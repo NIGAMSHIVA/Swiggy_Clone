@@ -1,0 +1,100 @@
+
+1. Jsx should return only one parent element If there Are multiple child Wrap them inside one parent.
+
+2. You can write JS inside JSX between {} These Curly braces. 
+
+3. Javascript variable should be called only after declaring.
+
+4.Cross Site Scrypting(XSS) is the Attack which is done by using the feature that jsx allow any javascript code to be 
+executed inside the curly braces.
+
+5.React Components can be rendered through the <Component /> or <Component></Component>
+
+6.React Component can also be called by {componentName()} or <componentName /> .But this wont work in render.In render 
+you have to do only <componentName />
+
+7.If you see in browser the css and app filee are named differently like namaste_react[Hash].css or js .The parcel
+do this to trick the browser into thinking that this files is new ,so reload it .
+therefore older version may not stick to it.
+
+8.dsiplay:flex chnges the default axis (vertical ) to horizontal .If parent header set to dsiplay :flex
+then its child will be horizontal [nav-items and logo]
+
+9.In in-line css We generally style with JavaScript Object.
+
+10.props are simple the are the data sent from the parent to the child component.Ther are similar to the argument to the
+JS functions.
+
+11.Config Driven UI-Config is data,data in handling the UI.Instead of writing 1000 restaurant in the UI .Do it in Data side and
+and just do the map in the UI.Important example-> In food apps like Swiggy You see different offers in kolkata & diffeent in Kanpur.If the UI was not config Driven
+then it would be the seperate app for seperate city.Thats why Config Driven UI is Important.
+
+12.API-Application Programming Interface ,APIs are usually hosted on the backend/server, not written in the frontend.Frontend Request the API call and get the data.
+It some times sends the data also(POST).Will discuss about this later.
+
+
+
+14.Cloudinary Image ->Cloud based service Which help to get image online via CDN links and
+Transformation in the image from the URL can also be done using URL.
+
+15.[
+  { "card": {...} },   // ✅ Valid object
+  { "card": {...} },   // ✅ Valid object
+]
+This is the valid syntax of objects inside the Array
+
+13.Object Destructuring-Read Something more about It I am not good in it.It is Important Dicuss with 
+Rishu bhaiya Also
+
+14. when you comment out the height, the card automatically adjusts based on its content — this is the default 
+and expected behavior in CSS: height grows as per content.
+
+15.Always have key in the React component rendering because if new  compoenent added react will re-render
+every element ,but if we have unique key it will render only the new one.
+Bad practise is to use index as key because if the list is order and new element is added all the order change and 
+react will think every element is changed so it will re render all the elements.Ue ID as key is a good practise.
+
+16.Ask About map and destructuring with Rishu Bhaiya.
+
+17.Every code in react can be written in HTML/CSS/Javascript wring and using React kust make developer experience easy
+and do the optimizations also.
+
+18.useState variable should be defined inside the component,as we do in java variable are initialized inside the functions.
+
+19.Lazy-loading is used where we have to load only after some action.For example you dont have to load all the 100 
+images at one-go so you apply lazy loading which will load the images only after the scrolling.
+It affect performance and speed by just presenting only visible content frst 
+
+
+20.Chrome Dev tools-> preview -pretty way of representing what server sent
+response-> Raw way of representing what server sent
+initiator->what changes made the request call
+Header->all type of information regarding the API endpoint time cross origin
+payload->The message we are sending
+
+21.So,useEffect hook useEffect(()=>{})  no this useEffect will be called every time after the component renders.But If i Put the dependency Array
+[],useEffect(()=>{},[]) only on time as the component render but If i put something inside the dependency array then it wil called every time
+the thing inside the dependency array changes.
+
+22.Javascript is synchronously single threaded language,single threaded means one execution code at one time and synchronously means it block all other
+while executing one code even though it feels asynchronous thanks to Browser APIs and event-loop for it.
+
+23.Always initialize the hooks inside the components(top-level of the components) and dont initialise the hooks inside the functions,if-else and for loop.
+
+34.react-router-dom is the JS library which help in routing and we import {createBrowserRouter} from the "react-router-dom" for this purpose.
+react-router-dom is for client-side-routing .Client-side-routing is going to the new page without the reload.It is just going to other rooms
+inside the house.But server side routing refers to going to other pages after the reload .It is like going to the other homes outside the 
+house.
+
+
+
+
+
+
+
+
+
+
+
+
+
