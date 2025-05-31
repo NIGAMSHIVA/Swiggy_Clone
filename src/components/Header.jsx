@@ -11,7 +11,7 @@ export const Header = () => {
 
    useEffect(() => {
     console.log("Re-rendered")
-  },[log])
+  },[])
 
   const logFunction = () => {
     return log ? "login" : "logout";

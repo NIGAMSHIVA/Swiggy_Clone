@@ -81,14 +81,16 @@ while executing one code even though it feels asynchronous thanks to Browser API
 
 23.Always initialize the hooks inside the components(top-level of the components) and dont initialise the hooks inside the functions,if-else and for loop.
 
-34.react-router-dom is the JS library which help in routing and we import {createBrowserRouter} from the "react-router-dom" for this purpose.
+24.react-router-dom is the JS library which help in routing and we import {createBrowserRouter} from the "react-router-dom" for this purpose.
 react-router-dom is for client-side-routing .Client-side-routing is going to the new page without the reload.It is just going to other rooms
 inside the house.But server side routing refers to going to other pages after the reload .It is like going to the other homes outside the 
 house.
 
-
-
-
+25.We use createBrowserRouter(function) which is in the react-router-dom library.To use it we first install npm install 
+react-router-dom.From this react-router-dom We use createBrowserRouter which help in creating Routes.
+createBrowserRouter accept an array of Objects,Each Object have its path and element which mean if that path is called
+that element will be called.RouterProvider is a compnent which accept {router} as a prop which is defined in the 
+createBrowserRouter,so we write root.render(<RouteProvider router={router}>).
 
 
 
