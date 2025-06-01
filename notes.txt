@@ -98,6 +98,10 @@ if the Error Happens and also it provides useRouteError(),it is a hook given by 
 object form error message to make our page dynamic to represent our error like 400 or 500.useRouteError() hook should
 be used only inside the component which is rendered when the errorElement triggers
 
+27.There are anchor tags with href which redirect to the other page ,but this is not Cool becuase this reload the page 
+When we click on it.So in React we got something called as Link to which is provided be react-router-dom,it works same as
+href but it does not reload .
+
 
 
 
