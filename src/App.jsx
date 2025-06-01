@@ -8,6 +8,7 @@ import { About } from "./components/About"
 import {Error} from "./components/Error"
 import {Contacts} from "./components/Contacts"
 
+import RestaurantMenu from "./components/RestaurantsMenu"
 import {createBrowserRouter,RouterProvider,Outlet} from "react-router-dom"
 
 
@@ -38,6 +39,11 @@ const router = createBrowserRouter([
     {
       path:"/contacts",
       element:<Contacts />
+    },
+    {
+      path:"/restaurants/:resId",
+      element:<RestaurantMenu />
+
     }
   ]
   
