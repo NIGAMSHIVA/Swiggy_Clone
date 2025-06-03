@@ -1,11 +1,17 @@
 import {CDN_URL} from "../utils/constant"
+import {Link} from "react-router-dom"
 
 export const RestaurantCard = ({ resDataKey }) => {
+
+
   const resKey = resDataKey?.card?.card?.info;
-  const {avgRating,cuisines,costForTwo} = resDataKey?.card?.card?.info;
+  const {avgRating,cuisines,costForTwo,id} = resDataKey?.card?.card?.info;
+
+  console.log(id);
 
 
   return (
+    <Link to={"/restaurants/"+id}>
     <div className="resCard">
       <img
         className="res-image "
@@ -21,5 +27,6 @@ export const RestaurantCard = ({ resDataKey }) => {
         <h5>{resKey.sla.slaString}</h5>
       </div>
     </div>
+    </Link>
   );
 };
