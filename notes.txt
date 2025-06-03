@@ -101,7 +101,7 @@ be used only inside the component which is rendered when the errorElement trigge
 27.There are anchor tags with href which redirect to the other page ,but this is not Cool becuase this reload the page 
 When we click on it.So in React we got something called as Link to which is provided by react-router-dom,it works same as
 href but it does not reload .React follows the principle of Single Page Application,where as the loading the whole page 
-while using anchor tags unmounts the data
+while using anchor tags unmounts the data..
 
 28.useState doesnot the update the set variable instantly while it schedule the change in the status variable after the 
 function ends so if we log the state value just after setting the state variable we will get the same dault value which
