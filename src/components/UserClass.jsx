@@ -1,35 +1,34 @@
-
 import React from "react";
 
-class UserClass extends React.Component{
+class UserClass extends React.Component {
+  constructor(props) {
+    super(props);
 
-    // constructor(props){
+    this.state = {
+      count: 1,
+    };
+  }
 
-    //     super(props);
+  render() {
+    // dont forget to put return in the class-Based Compoennt
 
+    return (
+      <div className="class-comp">
+        <h1>Name: {this.props.name}</h1>
 
-
-    // }
-
-
-    render(){
-
-        // dont forget to put return in the class-Based Compoennt
-
-        return(
-
-
-        <div className="class-comp">
-            <h1>Name: {this.props.name}</h1>
-            <h2>Language:React</h2>
-            <h3>Ratings:1400+</h3>
-            <h4>Love Java</h4>
-        </div>
-
-        );
-        
-    }
-    
+        <button
+          onClick={() => {
+            this.setState ( {
+              count:this.state.count+1,
+          })
+          }}
+        >
+          Increase Counter
+        </button>
+        <h2>{this.state.count}</h2>
+      </div>
+    );
+  }
 }
 
-export default UserClass
+export default UserClass;

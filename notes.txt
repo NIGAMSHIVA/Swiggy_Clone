@@ -124,11 +124,26 @@ class UserClass extends React.component{
 
 31.npm run lint is a command to check the errors in javascript files.
 
-32.`Class-based Components are just like functional component but the props are accessed by (this) keyword,i.e
+32.Class-based Components are just like functional component but the props are accessed by (this) keyword,i.e
 this.props.name ,props can be called without the constructor but state cannot be.Props can be called without constructor 
 because React.Component has default constuctor so props use them.this keyword is necessary because it tell the curent 
 component in which operations are occuring.
- `
+
+33.state Variable are declared inside the class-based component using 
+this.state={
+  count: 1;
+}
+and state is a big object it can hold multiple state variables like
+this.state={
+  count:1,
+  count2:2;
+}
+and if you want to update the state variable you can use
+this.setState({
+  count:this.state.count+1,
+  count2:this.state.count2+1;
+})
+state variables are never updated by using equal to === sign 
 
 
 
