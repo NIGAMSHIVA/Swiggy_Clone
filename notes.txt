@@ -110,7 +110,26 @@ useEffect(()=>{console.log(state)},[state]).
 
 29.There are terms like useParams() hooks given by the react-router-dom,these hooks help to extract dynamic segment 
 from the URL and use it into the variable and there are terms like Link to given by the react-router-dom which
-are helpful for linking something to some path without the reloading.Link is a component and to is a prop 
+are helpful for linking something to some path without the reloading.Link is a component and to is a prop .
+
+30.So,class based component in this we extend React.Component class and inside the  render method we return some JSX
+this is basically known as Class-Based Components foe example,
+class UserClass extends React.component{
+  render(){
+    return(
+
+    )
+  }
+}.
+
+31.npm run lint is a command to check the errors in javascript files.
+
+32.`Class-based Components are just like functional component but the props are accessed by (this) keyword,i.e
+this.props.name ,props can be called without the constructor but state cannot be.Props can be called without constructor 
+because React.Component has default constuctor so props use them.this keyword is necessary because it tell the curent 
+component in which operations are occuring.
+ `
+
 
 
 

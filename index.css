@@ -84,3 +84,17 @@ text-align: center;}
 .Menu-Res{
     /* display: flex; */
 }
+.class-comp{
+    border: 1px solid black;
+    height: 200px;
+    margin: 10px;
+    padding: 5px;
+}
+.User-Comp{
+
+    border: 1px solid black;
+    height: 200px;
+    margin: 10px;
+    padding: 5px;
+
+}
