@@ -151,7 +151,10 @@ is rendered,whenever the state is changed render method is re-rendered.
 35.Firstly when the DOM tree fully formed,now the componentDidMount() is mounted all the renders are done first and then
 mounting occur.if there is parent A,child A & child B.
 parent A constructor->Parent A render->child A constructor->Child A render->child B constructor->Child B render->
-child A mount->Child B Mount-> Parent A mount.ComponentDidMount is used for the API Calls Just like the Useffect
+child A mount->Child B Mount-> Parent A mount.ComponentDidMount is used for the API Calls Just like the Useffect.
+React does this to optimize the performance because the DOM operations are expensive so react batch the render phase of all
+the child and batch the componentDidMount too.Component Update Happens In two phase , 1.Render Phase 2.Commit Phase.
+Commit phase is where the DOM operation occur. In Render Phase react Built the Virtual DOM and UI Tables.
 
 
 
