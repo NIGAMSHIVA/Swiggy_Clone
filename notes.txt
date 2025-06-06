@@ -145,6 +145,15 @@ this.setState({
 })
 state variables are never updated by using equal to === sign 
 
+34.LifeCycle of ClassBased Component firstly constructor is invoked and then render is rendered and then componentDidMount
+is rendered,whenever the state is changed render method is re-rendered.
+
+35.Firstly when the DOM tree fully formed,now the componentDidMount() is mounted all the renders are done first and then
+mounting occur.if there is parent A,child A & child B.
+parent A constructor->Parent A render->child A constructor->Child A render->child B constructor->Child B render->
+child A mount->Child B Mount-> Parent A mount.ComponentDidMount is used for the API Calls Just like the Useffect
+
+
 
 
 

@@ -1,5 +1,5 @@
 import { CDN_Logo } from "../utils/constant";
-import {About} from "./About"
+import About from "./About"
 
 import { useEffect, useState } from "react";
 
@@ -7,13 +7,10 @@ import {Link} from "react-router-dom";
 
 export const Header = () => {
 
-  console.log("Renders");
-
 
   const [log, setLog] = useState(true);
 
    useEffect(() => {
-    console.log("Re-rendered")
   },[])
 
   const logFunction = () => {

@@ -1,16 +1,40 @@
-const User=({name})=>{
+import React from "react";
+
+class User extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      count: 1,
+    };
+
+    console.log("Child shiva Constructor rendered");
+  }
 
 
-    return(
+  componentDidMount() {
+    console.log("ComponentDidMount shiva is rendered");
+  }
 
-        <div className="User-Comp">
-            <h1>Name: {name}</h1>
-            <h2>Language:React</h2>
-            <h3>Ratings:1400+</h3>
-            <h4>Love Java</h4>
-        </div>
 
-    )
+  render() {
+    console.log("Childshiva Render is rendered");
+    return (
+      <div className="class-comp">
+        <h1>Name: {this.props.name}</h1>
+
+        <button
+          onClick={() => {
+            this.setState({
+              count: this.state.count + 1,
+            });
+          }}
+        >
+          Increase Counter
+        </button>
+        <h2>{this.state.count}</h2>
+      </div>
+    );
+  }
 }
 
 export default User;
