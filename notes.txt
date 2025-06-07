@@ -156,6 +156,12 @@ React does this to optimize the performance because the DOM operations are expen
 the child and batch the componentDidMount too.Component Update Happens In two phase , 1.Render Phase 2.Commit Phase.
 Commit phase is where the DOM operation occur. In Render Phase react Built the Virtual DOM and UI Tables.
 
+36.
+
+
+
+
+
 
 
 

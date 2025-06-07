@@ -10,21 +10,18 @@ class UserClass extends Component {
       count: 1,
     };
 
-    console.log("Chils Rishabh Constructor is rendered");
   }
 
   componentDidMount() {
-    console.log("ComponentDidMount Rishabh is rendered");
   }
 
   render() {
-    
     // dont forget to put return in the class-Based Compoennt
 
-    console.log("Child Rishabh render is rendered");
     return (
       <div className="class-comp">
         <h1>Name: {this.props.name}</h1>
+        <h2><img src="https://avatars.githubusercontent.com/u/156409366?v=4" alt="" /></h2>
 
         <button
           onClick={() => {

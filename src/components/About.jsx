@@ -1,37 +1,34 @@
 import UserClass from "./UserClass";
-import User from "./User"
+import React from "react";
 
-import React from "react"
+class About extends React.Component {
+  constructor(props) {
+    super(props);
 
+    this.state = {
+      gitData: null,
+    };
+  }
 
-class About extends React.Component{
+  async componentDidMount() {
+    const data = await fetch("https://api.github.com/users/NIGAMSHIVA");
+    const json = await data.json();
 
-    constructor(props){
-        
-        super(props)
+    this.setState({
+      gitData: json,
+    });
+  }
 
-        console.log("Parent Constructor is Rendered");
-    }
+  render() {
+    if (this.state.gitData === null) return <h1>Loading .....</h1>;
 
-    componentDidMount(){
-        console.log("parent mount rendered");
-    }
-
-
-    render(){
-
-        console.log("Parent render is rendered");
-
-        return (
-            <div>
-              <UserClass name="Rishabh_Codes" />
-              <User name="Shiva_Codes" />
-            </div>
-          );
-
-
-    }
+    if (this.state.gitData != null)
+      return (
+        <div>
+          <UserClass name={this.state.gitData?.login} />
+        </div>
+      );
+  }
 }
 
-
-export default About
+export default About;
