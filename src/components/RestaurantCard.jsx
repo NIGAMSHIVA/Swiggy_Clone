@@ -7,7 +7,7 @@ export const RestaurantCard = ({ resDataKey }) => {
   const resKey = resDataKey?.card?.card?.info;
   const {avgRating,cuisines,costForTwo,id} = resDataKey?.card?.card?.info;
 
-  console.log(id);
+  // console.log(id);
 
 
   return (

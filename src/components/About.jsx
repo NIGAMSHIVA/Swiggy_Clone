@@ -2,6 +2,15 @@ import UserClass from "./UserClass";
 import React from "react";
 
 class About extends React.Component {
+
+  componentDidUpdate(){
+    console.log("Component Did Update");
+  }
+
+     componentWillUnmount(){
+      console.log("Component Unmounted");
+     }
+
   constructor(props) {
     super(props);
 
