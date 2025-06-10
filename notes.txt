@@ -80,6 +80,8 @@ the thing inside the dependency array changes.
 while executing one code even though it feels asynchronous thanks to Browser APIs and event-loop for it.
 
 23.Always initialize the hooks inside the components(top-level of the components) and dont initialise the hooks inside the functions,if-else and for loop.
+Hooks are always initialised inside the functional component it is not allowed to use the hooks in class based component.
+LifeCycle method like componentDidMount and componentWillUnmount are used inside the class based component.
 
 24.react-router-dom is the JS library which help in routing and we import {createBrowserRouter} from the "react-router-dom" for this purpose.
 react-router-dom is for client-side-routing .Client-side-routing is going to the new page without the reload.It is just going to other rooms
@@ -166,6 +168,13 @@ everytime as the dependency array changes but for this feature in componentDidMo
 componentDidUpdate(prevProps,prevState) if(this.state.count!===prevState.count) then do something,if more count 2 is also there
 if(this.state.count!===prevState.count) ||(this.state.count2!===prevState.count2) thats why the dependency is the array
 to store an array.And for cleaning you use componentWillUnmount and in useEffect you just use inside the return.
+
+38.componentWillUnmount is used to clear the interval ,it is called when we are changing the Page.As react is Single page 
+Application so the interval will continnue if we leave the page also,it can cause memory leaks.So we have to write 
+clearinterval() function inside the componentWillUnmount() it is similar to write clearinterval inside the useEffect
+ in the return statement
+
+39.
 
 
 

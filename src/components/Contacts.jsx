@@ -1,4 +1,24 @@
+import { useEffect } from "react"
+
 export const Contacts=()=>{
+
+
+    useEffect(()=>{
+        const eh=setInterval(()=>{
+            console.log("Shiva_Codes");
+        },1000)
+
+        console.log("Component Timer Set")
+
+
+        return()=>{
+            clearInterval(eh);
+
+            console.log("component Cleared")
+        }
+
+    },[])
+
     return(
 
         <div>
