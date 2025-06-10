@@ -165,7 +165,7 @@ componentWillUnmount is basically called when we change too another component.
 everytime as the dependency array changes but for this feature in componentDidMount we have to do something like
 componentDidUpdate(prevProps,prevState) if(this.state.count!===prevState.count) then do something,if more count 2 is also there
 if(this.state.count!===prevState.count) ||(this.state.count2!===prevState.count2) thats why the dependency is the array
-to store an array.And for cleaning you use componentWillUnmount and in useEffect you just use inside the return.`
+to store an array.And for cleaning you use componentWillUnmount and in useEffect you just use inside the return.
 
 
 
