@@ -3,13 +3,14 @@ import React from "react";
 
 class About extends React.Component {
 
-  componentDidUpdate(){
-    console.log("Component Did Update");
+  componentWillUnmount(){
+    console.log("Component is Unmounted")
   }
 
-     componentWillUnmount(){
-      console.log("Component Unmounted");
-     }
+  componentDidUpdate(){
+    console.log("Component is Updated")
+
+  }
 
   constructor(props) {
     super(props);
@@ -18,6 +19,10 @@ class About extends React.Component {
       gitData: null,
     };
   }
+
+
+  debugger;
+
 
   async componentDidMount() {
     const data = await fetch("https://api.github.com/users/NIGAMSHIVA");
@@ -28,13 +33,15 @@ class About extends React.Component {
     });
   }
 
+
+
   render() {
     if (this.state.gitData === null) return <h1>Loading .....</h1>;
 
     if (this.state.gitData != null)
       return (
         <div>
-          <UserClass name={this.state.gitData?.login} />
+          <UserClass name={this.state.gitData?.login}  follo={this.state.gitData.following}/>
         </div>
       );
   }

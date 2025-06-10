@@ -156,8 +156,16 @@ React does this to optimize the performance because the DOM operations are expen
 the child and batch the componentDidMount too.Component Update Happens In two phase , 1.Render Phase 2.Commit Phase.
 Commit phase is where the DOM operation occur. In Render Phase react Built the Virtual DOM and UI Tables.
 
-36.
+36.So react lifecycle works like firstly constructor is called and then the renders occur and after that componentDidMount()
+called ,api called This is basically the mounting cycle and after that updating cycle begins,setState() called and then re-
+rendering occur,and after that componentDidUpdate called and after that componentWillUnmount is called.
+componentWillUnmount is basically called when we change too another component.
 
+37.Dont ever say useEffect() just work like the componentDidMount because useEffect has the feature of calling useEffect 
+everytime as the dependency array changes but for this feature in componentDidMount we have to do something like
+componentDidUpdate(prevProps,prevState) if(this.state.count!===prevState.count) then do something,if more count 2 is also there
+if(this.state.count!===prevState.count) ||(this.state.count2!===prevState.count2) thats why the dependency is the array
+to store an array.And for cleaning you use componentWillUnmount and in useEffect you just use inside the return.`
 
 
 

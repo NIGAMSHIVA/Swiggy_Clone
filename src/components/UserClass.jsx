@@ -15,6 +15,8 @@ class UserClass extends Component {
   componentDidMount() {
   }
 
+  
+
   render() {
     // dont forget to put return in the class-Based Compoennt
 
@@ -22,6 +24,7 @@ class UserClass extends Component {
       <div className="class-comp">
         <h1>Name: {this.props.name}</h1>
         <h2><img src="https://avatars.githubusercontent.com/u/156409366?v=4" alt="" /></h2>
+        <h3>{this.props.follo} Following</h3>
 
         <button
           onClick={() => {
