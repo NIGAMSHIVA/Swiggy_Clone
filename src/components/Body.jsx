@@ -63,7 +63,7 @@ export const Body = () => {
           className="top-rated-button"
           onClick={() => {
             const filteredList = dummyVar.filter(
-              (x) => x?.card?.card?.info?.avgRating >= 4.0
+              (x) => x?.card?.card?.info?.avgRating >= 3.0
             );
             setFilterVar(filteredList);
           }}
