@@ -176,9 +176,13 @@ clearinterval() function inside the componentWillUnmount() it is similar to writ
 
 39.Single Responsibilty principle in React is the term used for term where each component should have just single responsibility
 for that we use custom hooks some time ,just like useParams() where it was extracting the resId from the URL.Just like this
-custom hooks which we made do our work and we use that custom hook to give our component a feature of single-responsibility
+custom hooks which we made,do our work and we use that custom hook to give our component a feature of single-responsibility
 principle.We do this because by this the code will become more testable ,reusable and maintainable.We can write testcase for 
-just one component by which the component will turn out to be more testable.
+just one component by which the component will turn out to be more testable.It is the principle taken by OOP.
+
+40.You cant just fetch the API directly without using useEffect() because to fetch API using async you need useEffect.
+React is synchronous it just render the jsx quickly will not wait for the API to be fetched.Thats why API fetching does not 
+happen while rendering it happen after the component Mount. 
 
 
 
