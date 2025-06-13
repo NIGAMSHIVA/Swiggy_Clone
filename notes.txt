@@ -184,6 +184,12 @@ just one component by which the component will turn out to be more testable.It i
 React is synchronous it just render the jsx quickly will not wait for the API to be fetched.Thats why API fetching does not 
 happen while rendering it happen after the component Mount. 
 
+41.addEventListener(event,function) ,event like click ,online tell the browser's window which is the master of the browser
+that if this event happens then the function will call,navigate.onLine can also be used to know if browser is online or offline
+but it is not safe because sometimes if the router is connected then also it show true.window is a global object that contains
+function like setTimeOut(),alert().
+
+
 
 
 

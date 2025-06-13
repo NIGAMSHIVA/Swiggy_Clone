@@ -1,6 +1,7 @@
 import { RestaurantCard } from "./RestaurantCard";
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
+import useOnlineStatus from "../utils/useOnlineStatus";
 
 export const Body = () => {
 
@@ -29,6 +30,13 @@ export const Body = () => {
     setDummyVar(filterRestaurants);
     setFilterVar(filterRestaurants);
   };
+
+  // console.log(navigator.onLine);
+
+  const onlineStatus=useOnlineStatus();
+
+  if(onlineStatus === false)
+  return <h1>Looks Like You are Offline! Please connect the Internet</h1>
 
   return dummyVar.length == 0 ? (
     <Shimmer />
