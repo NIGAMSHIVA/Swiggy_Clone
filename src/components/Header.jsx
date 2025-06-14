@@ -1,4 +1,5 @@
 import { CDN_Logo } from "../utils/constant";
+import useOnlineStatus from "../utils/useOnlineStatus";
 import About from "./About"
 
 import { useEffect, useState } from "react";
@@ -17,6 +18,8 @@ export const Header = () => {
     return log ? "login" : "logout";
   };
 
+  const {onlineStatus}=useOnlineStatus();
+
   return (
     <div className="header">
       <div className="logo">
@@ -25,7 +28,13 @@ export const Header = () => {
       <div className="nav-items">
         <ul>
           <li>
+            {onlineStatus? "✅" : "🔴" }
+          </li>
+          <li>
             <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/grocery">Grocery</Link>
           </li>
           <li>
           <Link to ="/about">About</Link>

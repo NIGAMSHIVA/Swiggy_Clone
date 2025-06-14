@@ -18,7 +18,7 @@ const useOnlineStatus=()=>{
     },[])
 
 
-    return onlineStatus;
+    return {onlineStatus}
 
 
 

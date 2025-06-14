@@ -1,3 +1,6 @@
+0. Arrow functions ()=>{} if there is curly bracket then bind it inside the return statement if not bind it will be
+ undefined.
+
 
 1. Jsx should return only one parent element If there Are multiple child Wrap them inside one parent.
 
@@ -188,6 +191,14 @@ happen while rendering it happen after the component Mount.
 that if this event happens then the function will call,navigate.onLine can also be used to know if browser is online or offline
 but it is not safe because sometimes if the router is connected then also it show true.window is a global object that contains
 function like setTimeOut(),alert().
+
+42.lazy is named function which we import from "react" to use where we want a functionality of loading only when it is clicked
+The component is imported differently like 
+const Grocery=lazy(()=>import("./component/Grocery"))
+It is also known as dynamic bundling,chunking or code splitting,on demand loading or lazy Loading.Lazy is used to create 
+different bundled file.There are two more important terms which are known as fallback and Suspense.Suspense is named 
+component from the "react" and it is necessary because when We click the Grocery it takes some time to load,for that time to 
+tell react it will take some time we use suspense and fallback to show something in the UI till it is not loading
 
 
 
