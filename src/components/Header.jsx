@@ -27,8 +27,9 @@ export const Header = () => {
       </div>
       <div className="nav-items">
         <ul>
+          
           <li>
-            {onlineStatus? "✅" : "🔴" }
+            {onlineStatus? "Online✅" : "Offline🔴" }
           </li>
           <li>
             <Link to="/">Home</Link>

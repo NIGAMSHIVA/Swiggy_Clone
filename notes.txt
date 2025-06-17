@@ -200,6 +200,12 @@ different bundled file.There are two more important terms which are known as fal
 component from the "react" and it is necessary because when We click the Grocery it takes some time to load,for that time to 
 tell react it will take some time we use suspense and fallback to show something in the UI till it is not loading
 
+43.There are CSS component framework which gives You pre-Built component and you can use them and dont care about the css of the
+component then,Like SASS,SCSS,Chakara UI,Material UI,Styled compoenent.Tailwind CSS give you utilities to write CSS inside 
+className  without leaving the HTML.Bootstrap is both CSS utility and component framework.
+
+44.Install Tailwind from the official website go with the commands,postcssrc help the bundler to read the tailwind.for vite 
+it is completely different than the other bundlers.index.css is the entry file that tell to use tailwind Features.
 
 
 
