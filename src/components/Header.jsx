@@ -16,7 +16,7 @@ export const Header = () => {
         {/* Logo */}
         <div className="flex items-center space-x-4">
           <img className="w-16 h-auto" src={CDN_Logo} alt="Logo" />
-          <span className="text-xl font-bold text-pink-800">Zwiggy Go</span>
+          <span className="text-xl font-bold text-pink-800">Zwiy Go</span>
         </div>
 
         {/* Navigation Links */}
