@@ -207,6 +207,9 @@ className  without leaving the HTML.Bootstrap is both CSS utility and component 
 44.Install Tailwind from the official website go with the commands,postcssrc help the bundler to read the tailwind.for vite 
 it is completely different than the other bundlers.index.css is the entry file that tell to use tailwind Features.
 
+45.Tailwind-Css provides you classes which You use for the CSS part.for padding it is p-4,margin m-3,w-4 for width.
+I have Installed an extension tailwind Intellisense which automatically tells the className for it.Therefore we dont have
+to go website everytime.
 
 
 
