@@ -138,18 +138,20 @@ export const Body = () => {
     <Shimmer />
   ) : (
     <>
-      <div className="top-Rated">
-        <div className="search_functionality">
+      <div className=" flex mx-20 my-3">
           <input
             type="text"
+            placeholder="Enter Restaurant Name"
+            className=" px-3 m-4  w-100 h-8 border border-gray-300  rounded-l"
             value={placeValue}
             onChange={(e) => {
               setPlaceValue(e.target.value);
             }}
             />
-            
-          <button
-            className="search_Restaurants"
+            <div className="flex justify-around">
+              <div>
+            <button
+            className=" m-2 cursor-pointer w-20 h-10 bg-green-500 hover:bg-green-600 rounded text-white"
             onClick={() => {
               const searchRes = dummyVar.filter((x) =>
                 x?.card?.card?.info?.name.toLowerCase()?.includes(placeValue.toLowerCase())
@@ -162,9 +164,10 @@ export const Body = () => {
           >
             Search
           </button>
-        </div>
+          </div>
+          <div>
         <button
-          className="top-rated-button"
+          className="m-2 p-2 cursor-pointer  bg-blue-500 hover:bg-blue-600 rounded text-white"
           onClick={() => {
             const filteredList = dummyVar.filter(
               (x) => x?.card?.card?.info?.avgRating >= 4.0
@@ -174,9 +177,12 @@ export const Body = () => {
         >
           Top-Rated Restaurants
         </button>
+        </div>
+            </div>
+               
       </div>
 
-      <div className="res-container">
+      <div className="flex flex-wrap px-18 bg-gray-100 p-6">
         {filterVar.map((uniq) => 
           <RestaurantCard resDataKey={uniq} key={uniq?.card?.card?.info?.id} />
         )}

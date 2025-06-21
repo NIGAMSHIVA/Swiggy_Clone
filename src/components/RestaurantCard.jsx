@@ -51,19 +51,21 @@ export const RestaurantCard = ({ resDataKey }) => {
 
   return (
     <Link to={"/restaurants/"+id}>
-    <div className="resCard">
+    <div className="w-70 h-75 m-4 bg-white rounded-2xl hover:scale-105 transition-transform duration-300">
       <img
-        className="res-image "
+        className="w-70 h-40 rounded"
         src={
-           CDN_URL+resKey.cloudinaryImageId}    
+           CDN_URL+resKey.cloudinaryImageId}   
       />
 
-      <div className="res-name">
-        <h4 className="">{resKey.name}</h4>
-        <h4>{avgRating}</h4>
-        <h5>{cuisines.join(",")}</h5>
-        <h5>{costForTwo }</h5>
-        <h5>{resKey.sla.slaString}</h5>
+      <div className="m-1">
+        <h4 className="font-semibold px-1 truncate">{resKey.name}</h4>
+        <h5 className="px-1 text-gray-400 truncate text-xs">{cuisines.join(",")}</h5>
+        <div className="flex justify-between">
+        <h4 className="px-1 py-0.5 w-12 h-6 bg-green-200 rounded mx-1 text-green-600 text-xs">⭐{avgRating}</h4>
+        <h4 className="px-1 text-gray-700 text-xs">{costForTwo }</h4>
+        </div>
+        <h5 className="px-1 text-xs text-gray-500 mt-4">{resKey.sla.slaString}</h5>
       </div>
     </div>
     </Link>

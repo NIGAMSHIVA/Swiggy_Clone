@@ -92,15 +92,16 @@ export const Header = () => {
   const {onlineStatus}=useOnlineStatus();
 
   return (
-    <div className="header">
-      <div className="logo">
-        <img className="logo_Image" src={CDN_Logo} />
+    <div className=" flex justify-between bg-pink-100 " >
+       <div className="flex items-center jusspace-x-1">
+        <img className=" w-20 p-2 mx-6" src={CDN_Logo} />
+        <span className="text-pink-500 font-extrabold text-xl">Sorry  Yaar😓 kuch khaalo isme se</span>
       </div>
-      <div className="nav-items">
-        <ul>
+      <div className="">
+        <ul className="flex py-10 px-15 justify-between space-x-6">
           
           <li>
-            {onlineStatus? "Online✅" : "Offline🔴" }
+            {onlineStatus? "Online🟢" : "Offline🔴" }
           </li>
           <li>
             <Link to="/">Home</Link>
