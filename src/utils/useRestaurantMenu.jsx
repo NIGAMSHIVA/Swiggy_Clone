@@ -13,20 +13,17 @@ const useRestaurantMenu=(resId)=>{
     },[])
 
 
-    const fetchMenu=async ()=>{
+   const fetchMenu = async () => {
+  const response = await fetch("/mockData/restaurantMenus.json");
+  const allMenus = await response.json();
+  const json = allMenus[resId];
 
- const menuData = await fetch("https://mp8374e1f2556feca1b5.free.beeceptor.com/menu/905190")
-        const json=await menuData.json();
+  setResMenu(
+    json.data.cards[4].groupedCard.cardGroupMap.REGULAR.cards[2].card.card.itemCards
+  );
+  setResInfo(json.data);
+};
 
-        console.log(json);
-
-            setResMenu(
-      json.data.cards[4].groupedCard.cardGroupMap.REGULAR.cards[2].card.card
-        .itemCards
-    );
-    setResInfo(json.data);
-
-    }
 
     return {resInfo,resMenu};
     

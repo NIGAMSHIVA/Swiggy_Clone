@@ -12,6 +12,7 @@ export const RestaurantCard = ({ resDataKey }) => {
     cloudinaryImageId,
   } = resDataKey?.card?.card?.info;
 
+console.log(id,name);
   return (
     <Link to={`/restaurants/${id}`}>
       <div className="w-72 rounded-2xl shadow-md overflow-hidden m-4 bg-white hover:scale-105 transition-transform duration-300">

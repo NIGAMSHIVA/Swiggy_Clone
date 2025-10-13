@@ -86,7 +86,8 @@ export const Body = () => {
       <div className="flex flex-wrap justify-center p-4">
         {filterVar.map((uniq) => (
           <RestaurantCard resDataKey={uniq} key={uniq?.card?.card?.info?.id} />
-        ))}
+        ))
+        }
       </div>
     </main>
   );
