@@ -1,0 +1,1915 @@
+{
+"statusCode": 0,
+"data": {
+"statusMessage": "done successfully",
+"cards": [
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+"text": "The Kitchen",
+"headerStyling": {
+"textColor": "text_Highest_Emphasis",
+"textVariant": "header_H3_Black"
+}
+}
+}
+},
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+"tabs": [
+{
+"id": "Order Online",
+"title": "Order Online"
+}
+]
+}
+}
+},
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "905190",
+"name": "The Kitchen",
+"city": "Kanpur",
+"slugs": {
+"restaurant": "the-kitchen-chawla-market-chawla-market",
+"city": "kanpur"
+},
+"uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/7/5df20859-fbe5-4fc6-8eb0-d848845c2466_905190.JPG",
+"locality": "Hamidi Rd",
+"areaName": "Chawla Market",
+"costForTwo": "25000",
+"costForTwoMessage": "₹250 for two",
+"cuisines": [
+"Chinese",
+"Beverages"
+],
+"avgRating": 5,
+"feeDetails": {
+"restaurantId": "905190",
+"fees": [
+{}
+]
+},
+"parentId": "1022",
+"avgRatingString": "5.0",
+"totalRatingsString": "<3 ratings",
+"sla": {
+"restaurantId": "905190",
+"deliveryTime": 20,
+"minDeliveryTime": 20,
+"maxDeliveryTime": 25,
+"lastMileTravel": 1.2,
+"serviceability": "SERVICEABLE",
+"stressFactor": 1,
+"rainMode": "RAIN_MODE_NONE",
+"longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+"zoneId": 742,
+"slaString": "20-25 MINS",
+"lastMileTravelString": "1.2 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2025-10-13 23:59:00",
+"visibility": true,
+"opened": true,
+"restaurantClosedMeta": {}
+},
+"aggregatedDiscountInfo": {
+"header": "15% off",
+"shortDescriptionList": [
+{
+"meta": "15% off | Use TRYNEW",
+"discountType": "Percentage",
+"operationType": "RESTAURANT"
+},
+{
+"meta": "10% off | Use PARTY",
+"discountType": "Percentage",
+"operationType": "RESTAURANT"
+}
+],
+"descriptionList": [
+{
+"meta": "15% off up to ₹45 | Use code TRYNEW",
+"discountType": "Percentage",
+"operationType": "RESTAURANT"
+},
+{
+"meta": "10% off | Use code PARTY",
+"discountType": "Percentage",
+"operationType": "RESTAURANT"
+}
+],
+"visible": true
+},
+"badges": {},
+"slugString": "the-kitchen-chawla-market-chawla-market",
+"multiOutlet": true,
+"isOpen": true,
+"labels": [
+{
+"title": "Timings",
+"message": "null"
+},
+{
+"title": "Address",
+"message": "Shop No : 231 b , Floor : ground , b baba nagar machhariya yashoda nagar 67 , "
+},
+{
+"title": "Cuisines",
+"message": "Chinese,Beverages"
+}
+],
+"aggregatedDiscountInfoV2": {
+"header": "15% off",
+"shortDescriptionList": [
+{
+"meta": "15% off | Use TRYNEW",
+"discountType": "Percentage",
+"operationType": "RESTAURANT"
+},
+{
+"meta": "10% off | Use PARTY",
+"discountType": "Percentage",
+"operationType": "RESTAURANT"
+}
+],
+"descriptionList": [
+{
+"meta": "15% off up to ₹45 | Use code TRYNEW",
+"discountType": "Percentage",
+"operationType": "RESTAURANT"
+},
+{
+"meta": "10% off | Use code PARTY",
+"discountType": "Percentage",
+"operationType": "RESTAURANT"
+}
+],
+"couponDetailsCta": "View coupon details"
+},
+"type": "F",
+"nudgeBanners": [
+{
+"minValue": 280,
+"maxValue": 400,
+"priority": 2,
+"couponCode": "PARTY",
+"discountInfo": {
+"discountType": "Percentage",
+"value": 10
+},
+"lockedMessage": "Add items worth ₹<amount> to unlock flat 10% off | Code PARTY",
+"unlockedMessage": "PARTY Coupon Unlocked! Use it to save flat 10% off",
+"logoCtx": {}
+}
+],
+"headerBanner": {
+"url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/905190"
+},
+"ratingSlab": "RATING_SLAB_5",
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {},
+"commsStyling": {}
+},
+"hasBestsellerItems": true,
+"cartOrderabilityNudgeBanner": {
+"parameters": {},
+"presentation": {}
+},
+"latLong": "26.40496758287968,80.32736283082733",
+"backgroundImageOverlayInfo": {},
+"featuredSectionInfo": {},
+"dishStyle": {
+"socialMarkerStyle": [
+{
+"socialMarkerType": "SOCIAL_MARKER_TYPE_HIGH_PROTEIN",
+"title": "Protein Rich",
+"textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+"textColor": "highlight"
+},
+{
+"socialMarkerType": "SOCIAL_MARKER_TYPE_BESTSELLER",
+"title": "Bestseller",
+"textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+"textColor": "color_swiggy_one"
+}
+]
+}
+},
+"analytics": {}
+},
+"relevance": {
+"type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+"sectionId": "POP_UP_CROUTON_MENU"
+}
+}
+},
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+"layout": {
+"rows": 1,
+"columns": 3,
+"horizontalScrollEnabled": true,
+"itemSpacing": 12,
+"lineSpacing": 10,
+"widgetPadding": {},
+"containerStyle": {
+"containerPadding": {
+"left": 10,
+"right": 10,
+"bottom": 16
+}
+}
+},
+"id": "offerCollectionWidget_UX4",
+"gridElements": {
+"infoWithStyle": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+"offers": [
+{
+"info": {
+"header": "15% OFF UPTO ₹45",
+"offerTagColor": "#E46D47",
+"offerIds": [
+"17c7f6d4-56f3-4d37-b6b5-03161e388059"
+],
+"expiryTime": "1970-01-01T00:00:00Z",
+"couponCode": "USE TRYNEW",
+"description": "ABOVE ₹149",
+"offerType": "offers",
+"restId": "905190",
+"offerLogo": "offers/generic",
+"descriptionTextColor": "#7302060C",
+"primaryDescription": "USE TRYNEW"
+},
+"cta": {
+"type": "OFFER_HALF_CARD"
+}
+},
+{
+"info": {
+"header": "FLAT 10% OFF",
+"offerTag": "FLAT DEAL",
+"offerTagColor": "#E46D47",
+"offerIds": [
+"9eb3c82a-81a7-44b2-a5d0-f48eb4061e18"
+],
+"expiryTime": "1970-01-01T00:00:00Z",
+"couponCode": "USE PARTY",
+"description": "ABOVE ₹400",
+"offerType": "offers",
+"restId": "905190",
+"offerLogo": "offers/generic",
+"descriptionTextColor": "#7302060C",
+"primaryDescription": "USE PARTY"
+},
+"cta": {
+"type": "OFFER_HALF_CARD"
+}
+},
+{
+"info": {
+"header": "10% OFF UPTO ₹100",
+"offerTagColor": "#E46D47",
+"logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/8/20/c812c78a-7809-4ffa-9eea-59482c5bac46_RuPay.png",
+"offerIds": [
+"aad6b5b0-cd9c-4e28-b967-f72aae66b6f3"
+],
+"expiryTime": "1970-01-01T00:00:00Z",
+"couponCode": "USE RUPAYCC100",
+"description": "ABOVE ₹600",
+"offerType": "offers",
+"restId": "905190",
+"offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/8/20/c812c78a-7809-4ffa-9eea-59482c5bac46_RuPay.png",
+"descriptionTextColor": "#7302060C",
+"primaryDescription": "USE RUPAYCC100"
+},
+"cta": {
+"type": "OFFER_HALF_CARD"
+}
+}
+],
+"habitMilestoneInfo": {
+"callout": {}
+},
+"loyaltyDiscoverPresentationInfo": {
+"logoCtx": {}
+}
+}
+}
+}
+}
+},
+{
+"groupedCard": {
+"cardGroupMap": {
+"REGULAR": {
+"cards": [
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+"badges": {},
+"vegOnlyDetails": {
+"imageId": "AutoVegOnly_qkjowj",
+"title": "Showing only vegetarian options.",
+"description": "Tap on the VEG ONLY button to turn off the setting"
+},
+"topRatedFilter": {
+"attributes": {
+"displayText": "Ratings 4.0+"
+}
+},
+"kidsCategoryFilter": {
+"attributes": {
+"displayText": "Kids Favourites",
+"tooltip": {
+"enabled": true,
+"displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+}
+}
+},
+"vegFilter": {
+"attributes": {
+"displayText": "VEG"
+}
+},
+"nonvegFilter": {
+"attributes": {
+"displayText": "NONVEG"
+}
+}
+},
+"relevance": {
+"type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+"sectionId": "MENU_FILTER_TOGGLE"
+}
+}
+},
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+"title": "Pizza",
+"itemCards": [
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "142443611",
+"name": "Margherita",
+"category": "Pizza",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/61e15797-279d-4861-9ef0-c0ed854c68ed_f2ad7ff8-6472-4967-b553-e3c4a75f1fcd.jpg",
+"inStock": 1,
+"isVeg": 1,
+"price": 18000,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "60450547"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "142443618",
+"name": "Add on cheese burst",
+"category": "Pizza",
+"inStock": 1,
+"isVeg": 1,
+"price": 3900,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "84056750"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "142443617",
+"name": "Baby Corn Pizza",
+"category": "Pizza",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/5abac9e4-28bb-4ae0-865d-fec86aac2552_1038e600-4e3b-45c5-b9ff-735c773c11dc.jpg",
+"inStock": 1,
+"isVeg": 1,
+"price": 16000,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "NONVEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "84115904"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "142443616",
+"name": "Cheese looded pizza",
+"category": "Pizza",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/e64ea623-c07c-4f13-8758-9094fb0c89bf_1de0af1b-b1ac-4d49-b0f1-59925b111a39.jpg",
+"inStock": 1,
+"isVeg": 1,
+"price": 15500,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "84056753"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "142443615",
+"name": "Tandoori chicken pizza",
+"category": "Pizza",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/1690c5cd-5fdd-4ba6-bc82-b72da59123cb_3fdbed2f-fd4f-41c2-8d3d-2f8e130b5269.jpg",
+"inStock": 1,
+"price": 18000,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "NONVEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "84056767"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "142443614",
+"name": "Full veggies pizza",
+"category": "Pizza",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/7d5844ff-f845-470e-97f0-802ff2b77c9d_c886b256-9475-42f9-a5eb-b823d9b7c5c9.jpg",
+"inStock": 1,
+"isVeg": 1,
+"price": 19900,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "84115908"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "142443613",
+"name": "Paneer onion pizza",
+"category": "Pizza",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/baad3a32-17bf-423e-802e-d8d8a272193c_1406f824-f195-47cd-a4bb-ff3fbdf08604.jpg",
+"inStock": 1,
+"isVeg": 1,
+"price": 12500,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "84056761"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "142443612",
+"name": "Spicy chicken pizza [8 inches]",
+"category": "Pizza",
+"inStock": 1,
+"isVeg": 1,
+"price": 16900,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "88683311"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+}
+],
+"subtitleSuffix": {},
+"image": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/61e15797-279d-4861-9ef0-c0ed854c68ed_f2ad7ff8-6472-4967-b553-e3c4a75f1fcd.jpg",
+"categoryId": "49222121"
+}
+}
+},
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+"title": "Pasta",
+"itemCards": [
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "142443620",
+"name": "Non Veg White Sauce Pasta",
+"category": "Pasta",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/3cf7f35b-9bd0-4d85-9499-b5195e9a5de3_a9eab5d8-65c9-4734-823c-2dc98ab89950.jpg_compressed",
+"inStock": 1,
+"price": 19900,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "84115909"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "142443619",
+"name": "White sauce pasta",
+"category": "Pasta",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/88b951ed-0c81-4d6f-a7fa-33a0510e02da_df727fa5-3331-4db1-8ad3-72761eebb4bd.jpg",
+"inStock": 1,
+"isVeg": 1,
+"price": 19000,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "474733"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+}
+],
+"subtitleSuffix": {},
+"image": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/3cf7f35b-9bd0-4d85-9499-b5195e9a5de3_a9eab5d8-65c9-4734-823c-2dc98ab89950.jpg_compressed",
+"categoryId": "49222122"
+}
+}
+},
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+"title": "Burger",
+"itemCards": [
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "142443610",
+"name": "Crispy chicken grilled burger",
+"category": "Burger",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/761be6e9-9b3c-4e83-8bae-507f88202b5d_b97c9c7e-19d4-4457-a80b-ec1170ed31bf.jpg",
+"inStock": 1,
+"price": 12000,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "NONVEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "84056756"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "142443609",
+"name": "Cheese grilled burger",
+"category": "Burger",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/b279f47d-6326-4778-9440-d72e532d8652_49fd4a29-c1ab-4709-81eb-0c8c45899228.jpg",
+"inStock": 1,
+"isVeg": 1,
+"price": 9900,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "84056752"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "142443608",
+"name": "Paneer grilled burger",
+"category": "Burger",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/528ac785-2849-4cdd-b094-4ec1967d5e71_8af12e7d-add1-4b21-82b8-2e38774ea2ff.jpg",
+"inStock": 1,
+"isVeg": 1,
+"price": 9900,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "84056760"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "142443607",
+"name": "Veg aloo tikki burger",
+"category": "Burger",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/67ced966-af40-4dbf-af38-97a9e78b08f6_4245e98e-ec15-4a2f-9fd0-684708127adb.jpg",
+"inStock": 1,
+"isVeg": 1,
+"price": 6500,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "84056770"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "142565192",
+"name": "Paneer Peri Peri",
+"category": "Burger",
+"description": "A delectable veg burger filled with flavorful paneer and a tantalizing peri peri twist.",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/2a8a550f-0cc5-49fd-9a98-780e8d7206ce_08fa4081-1899-454c-8d38-36fcddb2fb6e.jpg",
+"inStock": 1,
+"isVeg": 1,
+"price": 12000,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "84115913"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+}
+],
+"subtitleSuffix": {},
+"image": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/761be6e9-9b3c-4e83-8bae-507f88202b5d_b97c9c7e-19d4-4457-a80b-ec1170ed31bf.jpg",
+"categoryId": "49222120"
+}
+}
+},
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+"title": "Maggi",
+"itemCards": [
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "142443606",
+"name": "Corn cheese maggi",
+"category": "Maggi",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/e59ae01c-d33d-453a-92b3-6b75ef09b3da_7569857b-6546-4f5c-b869-c55a05c395be.jpg",
+"inStock": 1,
+"isVeg": 1,
+"price": 9900,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "470281"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "142443605",
+"name": "Schizwan maggi",
+"category": "Maggi",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/c31432dc-5375-4fd6-a776-fade54665519_6919f80e-32a7-4c02-b415-dce2a3e2f684.jpg",
+"inStock": 1,
+"isVeg": 1,
+"price": 8000,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "84056765"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "142443604",
+"name": "Desi maggi",
+"category": "Maggi",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/a98c8410-45ca-414f-8a5e-e07c174dd907_841c6fde-38c9-4434-ad0c-41ead0b8c62c.jpg",
+"inStock": 1,
+"isVeg": 1,
+"price": 7500,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "84056757"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "142555931",
+"name": "Paneer Maggi",
+"category": "Maggi",
+"description": "A delectable and flavorful vegetarian version of the classic Maggi dish, featuring succulent paneer.",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/cabb240e-7a4e-4ccb-9329-b17240e2633b_b323b2de-2bf6-48c9-adef-ed3478d95454.jpg_compressed",
+"inStock": 1,
+"isVeg": 1,
+"price": 9900,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "472677"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "142563102",
+"name": "Paneer Manchurian",
+"category": "Maggi",
+"description": "A delectable veg dish from the Maggi category, featuring succulent paneer cooked to perfection.",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/6f8c0731-db5a-4fca-8df0-7f707f46bc3a_f9c0dfbc-258c-489f-b00c-2bde336a11bc.jpg_compressed",
+"inStock": 1,
+"isVeg": 1,
+"price": 16000,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "472690"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+}
+],
+"subtitleSuffix": {},
+"image": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/e59ae01c-d33d-453a-92b3-6b75ef09b3da_7569857b-6546-4f5c-b869-c55a05c395be.jpg",
+"categoryId": "49222119"
+}
+}
+},
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+"title": "Noodles and manchurian",
+"itemCards": [
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "142549327",
+"name": "Hakka Noodles",
+"category": "Noodles and manchurian",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/0e3ecf47-8478-4d7a-8947-c780135db955_12ad43b1-7557-49b9-93a4-ced33bdd757b.jpg",
+"inStock": 1,
+"isVeg": 1,
+"price": 14000,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "471114"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "142555821",
+"name": "Chilli Garlic Noodles",
+"category": "Noodles and manchurian",
+"description": "Flavorful noodles tossed in a delectable garlic-infused sauce, perfect for those craving an indulgent, savory meal.",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/528ac785-2849-4cdd-b094-4ec1967d5e71_8af12e7d-add1-4b21-82b8-2e38774ea2ff.jpg",
+"inStock": 1,
+"isVeg": 1,
+"price": 16000,
+"variants": {
+"variantGroups": [
+{
+"groupId": "43627980",
+"name": "Quantity",
+"variations": [
+{
+"name": "Small",
+"default": 1,
+"id": "138821060",
+"inStock": 1,
+"isVeg": 1,
+"isEnabled": 1
+},
+{
+"name": "Medium",
+"id": "138821061",
+"inStock": 1,
+"isVeg": 1,
+"isEnabled": 1
+},
+{
+"name": "Large",
+"id": "138821062",
+"inStock": 1,
+"isVeg": 1,
+"isEnabled": 1
+}
+]
+}
+]
+},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "470060"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "142555906",
+"name": "Paneer Noodles",
+"category": "Noodles and manchurian",
+"description": "Delight in the perfect blend of tender paneer and flavorful noodles, creating a delectable fusion of textures and tastes.",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/473aee9e-6aab-4d36-93f0-d1853a65cb01_a02ba431-f83f-4695-91e8-152376b8f2fa.jpg",
+"inStock": 1,
+"isVeg": 1,
+"price": 18000,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "472718"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "142555914",
+"name": "Chicken Noodles",
+"category": "Noodles and manchurian",
+"description": "Savor the perfect blend of tender chicken and flavorful noodles in this delightful combination of Noodles and Manchurian.",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/90b791fb-3758-4a40-803d-b3b44462fc85_c7667389-0a1c-4c1b-b831-a2f66e4e95c8.jpg",
+"inStock": 1,
+"price": 18900,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "NONVEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "469664"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "142561865",
+"name": "Schezwan spicy noodles",
+"category": "Noodles and manchurian",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/1c4611f3-1a01-46d6-b414-f92361084426_34589a93-5a8e-4f0a-956e-1f1309f8db8c.jpg_compressed",
+"inStock": 1,
+"isVeg": 1,
+"price": 17000,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "84115915"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "142563001",
+"name": "Noodles Veg Manchurian",
+"category": "Noodles and manchurian",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/6f8c0731-db5a-4fca-8df0-7f707f46bc3a_f9c0dfbc-258c-489f-b00c-2bde336a11bc.jpg_compressed",
+"inStock": 1,
+"isVeg": 1,
+"price": 19900,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "84201162"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "142563038",
+"name": "Noodles with Paneer Manchurian",
+"category": "Noodles and manchurian",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/24d8529f-efdf-44d2-a48a-2c3bd3063c07_bbd8ab28-b86f-4e03-a294-eb28c227c6b0.jpg_compressed",
+"inStock": 1,
+"price": 21000,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "NONVEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "84115911"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "142563076",
+"name": "Veg Manchurian",
+"category": "Noodles and manchurian",
+"description": "A delectable combination of savory vegetables and flavorful noodles, bursting with delightful Asian-inspired flavors.",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/12422729-ee82-4e53-b65f-326ffc19bdf1_25fc12e7-d66f-4207-9412-eee411a8a406.jpg",
+"inStock": 1,
+"isVeg": 1,
+"price": 12000,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "474447"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "142564883",
+"name": "Chicken Manchurian",
+"category": "Noodles and manchurian",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/12422729-ee82-4e53-b65f-326ffc19bdf1_25fc12e7-d66f-4207-9412-eee411a8a406.jpg",
+"inStock": 1,
+"price": 18000,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "NONVEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "469597"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "149527314",
+"name": "Veg manchurain",
+"category": "Noodles and manchurian",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/8/31/9e08ce7b-f83f-4821-9222-96e9f949355f_7ea90c32-c298-465d-b73b-12fb6d402759.jpg",
+"inStock": 1,
+"isVeg": 1,
+"price": 18900,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "88683312"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "149527371",
+"name": "Veg manchurian gravy",
+"category": "Noodles and manchurian",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/8/31/6f2b21ce-55ba-44bb-8e5f-3338ee6f7ef8_50e67903-d9bb-4045-aab7-27f00d863f18.jpg",
+"inStock": 1,
+"isVeg": 1,
+"price": 18900,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "474457"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "149527394",
+"name": "Paneer Manchurian Gravy",
+"category": "Noodles and manchurian",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/8/31/779bd7a1-7f70-424e-8728-c47493bb77ad_a95f71dc-1be9-489f-b7b8-6ddffa94baae.jpg",
+"inStock": 1,
+"isVeg": 1,
+"price": 19900,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "472694"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "149527443",
+"name": "Chicken Manchurianravy ",
+"category": "Noodles and manchurian",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/8/31/0574cd1c-5ee9-4e9f-96ae-377d15e0b812_fbf68285-c1fd-473f-9b07-d0640207d687.jpg",
+"inStock": 1,
+"price": 19900,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "NONVEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "88683308"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+}
+],
+"subtitleSuffix": {},
+"image": "FOOD_CATALOG/IMAGES/CMS/2024/6/8/0e3ecf47-8478-4d7a-8947-c780135db955_12ad43b1-7557-49b9-93a4-ced33bdd757b.jpg",
+"categoryId": "49260212"
+}
+}
+},
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+"title": "Fries and chicken",
+"itemCards": [
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "149527514",
+"name": "French Fries",
+"category": "Fries and chicken",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/8/31/eb3fc1e9-a925-4cdd-b134-87c0fcd6c217_e0a09082-3410-4ba4-b01e-987cf680b1ce.jpg",
+"inStock": 1,
+"isVeg": 1,
+"price": 11900,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "470848"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "149527625",
+"name": "Peri Peri French Fries",
+"category": "Fries and chicken",
+"imageId": "8a988a27836257f722665cc647fc4ef9",
+"inStock": 1,
+"isVeg": 1,
+"price": 13900,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "74053747"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "149527631",
+"name": "Crispy Chicken",
+"category": "Fries and chicken",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/26/4dd963d7-6b5c-4841-9757-750b5bd63e15_47d346f8-1b35-4e16-a639-2a8d1bc7f470.jpg",
+"inStock": 1,
+"price": 18900,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "NONVEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "470338"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "149527633",
+"name": "Peri Peri Crispy Chicken",
+"category": "Fries and chicken",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/8/30/0087410a-6073-4415-9b89-ff3b1f348c40_416a8cd5-9bf8-453f-929e-8b2ada4a08ca.jpg",
+"inStock": 1,
+"price": 19900,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "NONVEG"
+},
+"ribbon": {
+"text": "Bestseller",
+"textColor": "#ffffff",
+"topBackgroundColor": "#d53d4c",
+"bottomBackgroundColor": "#b02331"
+},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"isBestseller": true,
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "88683310"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "149527643",
+"name": "Schezwan Chicken",
+"category": "Fries and chicken",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/7/6c129c30-cd31-441d-940a-904cf59adda7_3fc3802e-ec55-4008-a987-f29cc4145901.jpg",
+"inStock": 1,
+"price": 19900,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "NONVEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "473463"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "149527648",
+"name": "Honey Chilli Chicken",
+"category": "Fries and chicken",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/8/31/c707256f-70bb-4451-b900-9ee2e437d0bc_d227f34d-4a11-403f-838f-b39a1c7f834f.jpg",
+"inStock": 1,
+"price": 19900,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "NONVEG"
+},
+"ribbon": {
+"text": "Bestseller",
+"textColor": "#ffffff",
+"topBackgroundColor": "#d53d4c",
+"bottomBackgroundColor": "#b02331"
+},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"isBestseller": true,
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "471187"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "149527649",
+"name": "Chilli Garlic Chicken",
+"category": "Fries and chicken",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/8/31/00afaf77-b3d1-416a-8b97-2c7a150fc416_0fcb218b-7721-4f97-b96f-b1a5a2de0270.jpg",
+"inStock": 1,
+"price": 19900,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "NONVEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "88683309"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+}
+],
+"subtitleSuffix": {},
+"image": "FOOD_CATALOG/IMAGES/CMS/2024/8/31/eb3fc1e9-a925-4cdd-b134-87c0fcd6c217_e0a09082-3410-4ba4-b01e-987cf680b1ce.jpg",
+"categoryId": "52400724"
+}
+}
+},
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+"title": "Drink and shake",
+"itemCards": [
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "149527659",
+"name": "Berry Blast",
+"category": "Drink and shake",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/8/31/50795caf-986e-4f5a-a6cd-db2a275bb818_2a365fd1-4c54-4575-a5dd-e3e4f46b76b4.jpg",
+"inStock": 1,
+"isVeg": 1,
+"price": 11000,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "88683307"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "149527665",
+"name": "Strawberry Shake",
+"category": "Drink and shake",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/8/30/3d2dd969-119e-47d4-94bb-a5e23883b10b_aebcc75f-ce70-4676-b6a5-9415a686a2dd.jpg",
+"inStock": 1,
+"isVeg": 1,
+"price": 11000,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "473808"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "149527670",
+"name": "Chocolate Shake",
+"category": "Drink and shake",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/8/31/0dac54f6-9adc-48a4-a027-14bccd459f1d_82cbb2bb-4003-4c94-9b88-c827616ea6d3.jpg",
+"inStock": 1,
+"isVeg": 1,
+"price": 11000,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "470168"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "149527679",
+"name": "Chocolate Oreo Shake",
+"category": "Drink and shake",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/8/30/51d1e57b-e68a-4066-a968-e6fad115e5ba_17e760e4-6901-4700-8ea4-225f118af1b3.jpg",
+"inStock": 1,
+"isVeg": 1,
+"price": 12000,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "470163"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "149527693",
+"name": "Kitkat Shake",
+"category": "Drink and shake",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/8/30/77bf2083-fb97-4226-9c05-29b51c1ab13e_c585cd76-13c8-4c5b-86a5-3ed106cd3ecb.jpg",
+"inStock": 1,
+"isVeg": 1,
+"price": 12000,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "471464"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "149841995",
+"name": "Coke [250 Ml]",
+"category": "Drink and shake",
+"inStock": 1,
+"isVeg": 1,
+"price": 3000,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "470233"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "149843465",
+"name": "Cold Coffee",
+"category": "Drink and shake",
+"description": "A refreshing and invigorating blend of smooth, creamy goodness that is perfect for any time of day.",
+"imageId": "FOOD_CATALOG/IMAGES/CMS/2024/8/31/9768d718-e244-4a09-b661-97cc4a333eee_d74f9398-de77-45e4-990a-d2aceb80cfdd.jpg",
+"inStock": 1,
+"isVeg": 1,
+"price": 11000,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "470237"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+},
+{
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+"info": {
+"id": "149843466",
+"name": "Coke [250Ml ]",
+"category": "Drink and shake",
+"inStock": 1,
+"isVeg": 1,
+"price": 3000,
+"variants": {},
+"variantsV2": {},
+"itemAttribute": {
+"vegClassifier": "VEG"
+},
+"ribbon": {},
+"type": "ITEM",
+"itemBadge": {},
+"badgesV2": {},
+"ratings": {
+"aggregatedRating": {}
+},
+"parentId": "470233"
+},
+"analytics": {},
+"hideRestaurantDetails": true
+}
+}
+],
+"subtitleSuffix": {},
+"image": "FOOD_CATALOG/IMAGES/CMS/2024/8/31/50795caf-986e-4f5a-a6cd-db2a275bb818_2a365fd1-4c54-4575-a5dd-e3e4f46b76b4.jpg",
+"categoryId": "52400932"
+}
+}
+},
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+"type": "FSSAI",
+"imageId": "fssai_final_edss9i",
+"text": [
+"License No. 22723651000489"
+]
+}
+}
+},
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+"name": "The Kitchen",
+"area": "Chawla Market",
+"completeAddress": "Shop No : 231 b , Floor : ground , b baba nagar machhariya yashoda nagar 67 , "
+}
+}
+}
+]
+}
+}
+}
+}
+],
+"firstOffsetRequest": true,
+"isQCLink": false
+},
+"tid": "5b58b1f3-6a0d-4f0c-a531-9430b017669e",
+"sid": "nem2e3ec-e341-4139-95f1-1b59df931fd7",
+"deviceId": "19ee234d-d81b-114c-1440-136d936b4903",
+"csrfToken": "mBdtz8LqFxFR-BaKws2_imMuhurNmluzVPPDGJZ8"
+}
