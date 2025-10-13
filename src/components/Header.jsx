@@ -32,12 +32,12 @@ export const Header = () => {
             Home
           </Link>
 
-          <Link
+          {/* <Link
             to="/grocery"
             className="text-gray-700 hover:text-pink-700 font-medium transition"
           >
             Grocery
-          </Link>
+          </Link> */}
 
           <Link
             to="/about"
@@ -46,14 +46,14 @@ export const Header = () => {
             About
           </Link>
 
-          <Link
+          {/* <Link
             to="/contacts"
             className="text-gray-700 hover:text-pink-700 font-medium transition"
           >
             Contact Us
-          </Link>
+          </Link> */}
 
-          <span className="text-gray-700 font-medium">🛒 Cart</span>
+          {/* <span className="text-gray-700 font-medium">🛒 Cart</span> */}
 
           {/* Login / Logout Button */}
           <button
