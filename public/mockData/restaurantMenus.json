@@ -35,6 +35,58 @@
     }
   },
 
+  "320373": {
+    "data": {
+      "cards": [
+        {},
+        {},
+        {
+          "card": { "card": { "info": {
+            "name": "The Pizza House",
+            "cuisines": ["Italian", "Fast Food"],
+            "costForTwoMessage": "₹350 for two",
+            "avgRating": 4.2,
+            "cloudinaryImageId": "pizzahouse123"
+          } } }
+        },
+        {},
+        {
+          "groupedCard": { "cardGroupMap": { "REGULAR": { "cards": [ {}, {}, { "card": { "card": { "itemCards": [
+            { "card": { "info": { "id": 1, "name": "Margherita Pizza", "description": "Classic cheese pizza", "price": 22000 } } },
+            { "card": { "info": { "id": 2, "name": "Farmhouse Pizza", "description": "Loaded with veggies", "price": 28000 } } },
+            { "card": { "info": { "id": 3, "name": "Garlic Bread", "description": "Toasted with butter and herbs", "price": 12000 } } }
+          ] } } } ] } } }
+        }
+      ]
+    }
+  },
+
+  "654302": {
+    "data": {
+      "cards": [
+        {},
+        {},
+        {
+          "card": { "card": { "info": {
+            "name": "Khadak Singh Da Dhaba",
+            "cuisines": ["Punjabi", "Tandoor", "Indian"],
+            "costForTwoMessage": "₹400 for two",
+            "avgRating": 4.5,
+            "cloudinaryImageId": "khadaksingh123"
+          } } }
+        },
+        {},
+        {
+          "groupedCard": { "cardGroupMap": { "REGULAR": { "cards": [ {}, {}, { "card": { "card": { "itemCards": [
+            { "card": { "info": { "id": 1, "name": "Butter Chicken", "description": "Creamy Punjabi style", "price": 25000 } } },
+            { "card": { "info": { "id": 2, "name": "Dal Makhani", "description": "Rich and buttery lentils", "price": 18000 } } },
+            { "card": { "info": { "id": 3, "name": "Tandoori Roti", "description": "Soft clay oven bread", "price": 5000 } } }
+          ] } } } ] } } }
+        }
+      ]
+    }
+  },
+
   "905190": {
     "data": {
       "cards": [
@@ -59,8 +111,8 @@
                   {},
                   { "card": { "card": { "itemCards": [
                     { "card": { "info": { "id": 1, "name": "White Sauce Pasta", "description": "Creamy white sauce pasta", "price": 19000 } } },
-                    { "card": { "info": { "id": 2, "name": "Non-Veg White Sauce Pasta", "description": "Chicken pasta in white sauce", "price": 19900 } } },
-                    { "card": { "info": { "id": 3, "name": "Cold Coffee", "description": "Refreshing chilled coffee", "price": 9900 } } }
+                    { "card": { "info": { "id": 2, "name": "Cold Coffee", "description": "Refreshing chilled coffee", "price": 9900 } } },
+                    { "card": { "info": { "id": 3, "name": "Veg Noodles", "description": "Hakka style noodles", "price": 16000 } } }
                   ] } } }
                 ]
               }
@@ -71,38 +123,23 @@
     }
   },
 
-  "913051": {
+  "817921": {
     "data": {
       "cards": [
         {},
         {},
-        {
-          "card": { "card": { "info": {
-            "name": "Pandit Veg Food Court",
-            "cuisines": ["Indian", "Fast Food"],
-            "costForTwoMessage": "₹300 for two",
-            "avgRating": 4.2,
-            "cloudinaryImageId": "panditveg123"
-          } } }
-        },
+        { "card": { "card": { "info": {
+          "name": "7th Heaven",
+          "cuisines": ["Bakery", "Desserts"],
+          "costForTwoMessage": "₹300 for two",
+          "avgRating": 4.6,
+          "cloudinaryImageId": "7thheaven123"
+        } } } },
         {},
-        {
-          "groupedCard": {
-            "cardGroupMap": {
-              "REGULAR": {
-                "cards": [
-                  {},
-                  {},
-                  { "card": { "card": { "itemCards": [
-                    { "card": { "info": { "id": 1, "name": "Veg Thali", "description": "Complete North Indian thali", "price": 20000 } } },
-                    { "card": { "info": { "id": 2, "name": "Dal Fry", "description": "Homemade style dal tadka", "price": 12000 } } },
-                    { "card": { "info": { "id": 3, "name": "Tawa Roti", "description": "Soft wheat chapati", "price": 5000 } } }
-                  ] } } }
-                ]
-              }
-            }
-          }
-        }
+        { "groupedCard": { "cardGroupMap": { "REGULAR": { "cards": [ {}, {}, { "card": { "card": { "itemCards": [
+          { "card": { "info": { "id": 1, "name": "Chocolate Truffle Cake", "description": "Rich and moist cake", "price": 45000 } } },
+          { "card": { "info": { "id": 2, "name": "Red Velvet Cupcake", "description": "Soft cupcake with frosting", "price": 15000 } } }
+        ] } } } ] } } } }
       ]
     }
   },
@@ -129,191 +166,148 @@
     }
   },
 
-  "816580": {
+  "707014": {
     "data": {
       "cards": [
         {},
         {},
         { "card": { "card": { "info": {
-          "name": "Awadhi Khichdi",
-          "cuisines": ["Indian", "Home Style"],
-          "costForTwoMessage": "₹220 for two",
-          "avgRating": 4.5,
-          "cloudinaryImageId": "awadhi123"
-        } } } },
-        {},
-        { "groupedCard": { "cardGroupMap": { "REGULAR": { "cards": [ {}, {}, { "card": { "card": { "itemCards": [
-          { "card": { "info": { "id": 1, "name": "Plain Khichdi", "description": "Classic moong dal khichdi", "price": 12000 } } },
-          { "card": { "info": { "id": 2, "name": "Tadka Khichdi", "description": "Tempered with ghee and spices", "price": 15000 } } },
-          { "card": { "info": { "id": 3, "name": "Veg Khichdi", "description": "Loaded with vegetables", "price": 16000 } } }
-        ] } } } ] } } } }
-      ]
-    }
-  },
-
-  "559188": {
-    "data": {
-      "cards": [
-        {},
-        {},
-        { "card": { "card": { "info": {
-          "name": "Chotu Kitchen",
-          "cuisines": ["North Indian", "Tandoor"],
-          "costForTwoMessage": "₹180 for two",
+          "name": "Jo Hukum",
+          "cuisines": ["North Indian", "Chinese"],
+          "costForTwoMessage": "₹250 for two",
           "avgRating": 4.0,
-          "cloudinaryImageId": "chotu123"
+          "cloudinaryImageId": "johukum123"
         } } } },
         {},
         { "groupedCard": { "cardGroupMap": { "REGULAR": { "cards": [ {}, {}, { "card": { "card": { "itemCards": [
-          { "card": { "info": { "id": 1, "name": "Butter Chicken", "description": "Rich buttery gravy chicken", "price": 24000 } } },
-          { "card": { "info": { "id": 2, "name": "Tandoori Roti", "description": "Tandoor cooked roti", "price": 5000 } } }
+          { "card": { "info": { "id": 1, "name": "Paneer Roll", "description": "Stuffed paneer wrap", "price": 14000 } } },
+          { "card": { "info": { "id": 2, "name": "Manchurian", "description": "Crispy fried balls in sauce", "price": 16000 } } }
         ] } } } ] } } } }
       ]
     }
   },
 
-  "714691": {
+  "751446": {
     "data": {
       "cards": [
         {},
         {},
         { "card": { "card": { "info": {
-          "name": "Mahadev Foods",
+          "name": "Pizza House. In",
+          "cuisines": ["Italian", "Pizza"],
+          "costForTwoMessage": "₹400 for two",
+          "avgRating": 4.3,
+          "cloudinaryImageId": "pizzain123"
+        } } } },
+        {},
+        { "groupedCard": { "cardGroupMap": { "REGULAR": { "cards": [ {}, {}, { "card": { "card": { "itemCards": [
+          { "card": { "info": { "id": 1, "name": "Pepperoni Pizza", "description": "Loaded with pepperoni", "price": 28000 } } },
+          { "card": { "info": { "id": 2, "name": "Cheese Burst Pizza", "description": "Melty and cheesy", "price": 30000 } } }
+        ] } } } ] } } } }
+      ]
+    }
+  },
+
+  "811489": {
+    "data": {
+      "cards": [
+        {},
+        {},
+        { "card": { "card": { "info": {
+          "name": "Kanpur Dhaba And Restaurant",
+          "cuisines": ["North Indian", "Tandoor"],
+          "costForTwoMessage": "₹350 for two",
+          "avgRating": 4.1,
+          "cloudinaryImageId": "kanpurdhaba123"
+        } } } },
+        {},
+        { "groupedCard": { "cardGroupMap": { "REGULAR": { "cards": [ {}, {}, { "card": { "card": { "itemCards": [
+          { "card": { "info": { "id": 1, "name": "Kadhai Paneer", "description": "Spicy tomato gravy", "price": 22000 } } },
+          { "card": { "info": { "id": 2, "name": "Tandoori Chicken", "description": "Chargrilled chicken pieces", "price": 25000 } } }
+        ] } } } ] } } } }
+      ]
+    }
+  },
+
+  "904568": {
+    "data": {
+      "cards": [
+        {},
+        {},
+        { "card": { "card": { "info": {
+          "name": "Palmshore Cafe",
+          "cuisines": ["Continental", "Cafe"],
+          "costForTwoMessage": "₹300 for two",
+          "avgRating": 4.4,
+          "cloudinaryImageId": "palmshore123"
+        } } } },
+        {},
+        { "groupedCard": { "cardGroupMap": { "REGULAR": { "cards": [ {}, {}, { "card": { "card": { "itemCards": [
+          { "card": { "info": { "id": 1, "name": "Grilled Sandwich", "description": "Loaded with veggies", "price": 16000 } } },
+          { "card": { "info": { "id": 2, "name": "Iced Latte", "description": "Cold coffee with milk foam", "price": 13000 } } }
+        ] } } } ] } } } }
+      ]
+    }
+  },
+
+  "1047895": {
+    "data": {
+      "cards": [
+        {},
+        {},
+        { "card": { "card": { "info": {
+          "name": "Anandam Restaurant",
+          "cuisines": ["Indian", "Chinese"],
+          "costForTwoMessage": "₹300 for two",
+          "avgRating": 4.2,
+          "cloudinaryImageId": "anandam123"
+        } } } },
+        {},
+        { "groupedCard": { "cardGroupMap": { "REGULAR": { "cards": [ {}, {}, { "card": { "card": { "itemCards": [
+          { "card": { "info": { "id": 1, "name": "Paneer Butter Masala", "description": "Creamy tomato curry", "price": 23000 } } },
+          { "card": { "info": { "id": 2, "name": "Fried Rice", "description": "Stir-fried rice with veggies", "price": 15000 } } }
+        ] } } } ] } } } }
+      ]
+    }
+  },
+
+  "803812": {
+    "data": {
+      "cards": [
+        {},
+        {},
+        { "card": { "card": { "info": {
+          "name": "Tripathi Restaurant",
           "cuisines": ["Indian", "Street Food"],
           "costForTwoMessage": "₹250 for two",
-          "avgRating": 4.3,
-          "cloudinaryImageId": "mahadev123"
-        } } } },
-        {},
-        { "groupedCard": { "cardGroupMap": { "REGULAR": { "cards": [ {}, {}, { "card": { "card": { "itemCards": [
-          { "card": { "info": { "id": 1, "name": "Samosa", "description": "Crispy fried snack", "price": 10000 } } },
-          { "card": { "info": { "id": 2, "name": "Chole Chawal", "description": "Chickpeas with rice", "price": 16000 } } }
-        ] } } } ] } } } }
-      ]
-    }
-  },
-
-  "893389": {
-    "data": {
-      "cards": [
-        {},
-        {},
-        { "card": { "card": { "info": {
-          "name": "Up78",
-          "cuisines": ["Indian", "Mughlai"],
-          "costForTwoMessage": "₹350 for two",
-          "avgRating": 4.2,
-          "cloudinaryImageId": "up78123"
-        } } } },
-        {},
-        { "groupedCard": { "cardGroupMap": { "REGULAR": { "cards": [ {}, {}, { "card": { "card": { "itemCards": [
-          { "card": { "info": { "id": 1, "name": "Chicken Biryani", "description": "Hyderabadi style", "price": 25000 } } },
-          { "card": { "info": { "id": 2, "name": "Paneer Butter Masala", "description": "Creamy tomato curry", "price": 23000 } } }
-        ] } } } ] } } } }
-      ]
-    }
-  },
-
-  "618856": {
-    "data": {
-      "cards": [
-        {},
-        {},
-        { "card": { "card": { "info": {
-          "name": "Thali of Night",
-          "cuisines": ["Indian", "Home Style"],
-          "costForTwoMessage": "₹200 for two",
           "avgRating": 4.0,
-          "cloudinaryImageId": "thalinight123"
+          "cloudinaryImageId": "tripathi123"
         } } } },
         {},
         { "groupedCard": { "cardGroupMap": { "REGULAR": { "cards": [ {}, {}, { "card": { "card": { "itemCards": [
-          { "card": { "info": { "id": 1, "name": "Veg Thali", "description": "Simple home-style meal", "price": 18000 } } },
-          { "card": { "info": { "id": 2, "name": "Dal Makhani", "description": "Creamy lentils", "price": 14000 } } }
+          { "card": { "info": { "id": 1, "name": "Poha", "description": "Light breakfast dish", "price": 9000 } } },
+          { "card": { "info": { "id": 2, "name": "Chole Kulche", "description": "Delhi style snack", "price": 15000 } } }
         ] } } } ] } } } }
       ]
     }
   },
 
-  "893399": {
+  "611886": {
     "data": {
       "cards": [
         {},
         {},
         { "card": { "card": { "info": {
-          "name": "Two Nepali Brother",
-          "cuisines": ["Nepali", "Tibetan"],
-          "costForTwoMessage": "₹300 for two",
-          "avgRating": 4.1,
-          "cloudinaryImageId": "nepali123"
+          "name": "50ML Bar & Lounge",
+          "cuisines": ["Bar", "Continental"],
+          "costForTwoMessage": "₹600 for two",
+          "avgRating": 4.5,
+          "cloudinaryImageId": "50mlbar123"
         } } } },
         {},
         { "groupedCard": { "cardGroupMap": { "REGULAR": { "cards": [ {}, {}, { "card": { "card": { "itemCards": [
-          { "card": { "info": { "id": 1, "name": "Momos", "description": "Steamed chicken momos", "price": 12000 } } },
-          { "card": { "info": { "id": 2, "name": "Thukpa", "description": "Hot noodle soup", "price": 15000 } } }
-        ] } } } ] } } } }
-      ]
-    }
-  },
-
-  "609511": {
-    "data": {
-      "cards": [
-        {},
-        {},
-        { "card": { "card": { "info": {
-          "name": "Valcano Chinese",
-          "cuisines": ["Chinese", "Thai"],
-          "costForTwoMessage": "₹280 for two",
-          "avgRating": 4.2,
-          "cloudinaryImageId": "valcano123"
-        } } } },
-        {},
-        { "groupedCard": { "cardGroupMap": { "REGULAR": { "cards": [ {}, {}, { "card": { "card": { "itemCards": [
-          { "card": { "info": { "id": 1, "name": "Hakka Noodles", "description": "Spicy Chinese noodles", "price": 16000 } } },
-          { "card": { "info": { "id": 2, "name": "Chilli Paneer", "description": "Paneer cubes in hot garlic sauce", "price": 19000 } } }
-        ] } } } ] } } } }
-      ]
-    }
-  },
-
-  "873415": {
-    "data": {
-      "cards": [
-        {},
-        {},
-        { "card": { "card": { "info": {
-          "name": "New Chopsticks Chinese",
-          "cuisines": ["Chinese", "Seafood"],
-          "costForTwoMessage": "₹270 for two",
-          "avgRating": 4.3,
-          "cloudinaryImageId": "chopsticks123"
-        } } } },
-        {},
-        { "groupedCard": { "cardGroupMap": { "REGULAR": { "cards": [ {}, {}, { "card": { "card": { "itemCards": [
-          { "card": { "info": { "id": 1, "name": "Chilli Chicken", "description": "Spicy dry chicken", "price": 21000 } } },
-          { "card": { "info": { "id": 2, "name": "Garlic Noodles", "description": "Flavoured with garlic", "price": 17000 } } }
-        ] } } } ] } } } }
-      ]
-    }
-  },
-
-  "816539": {
-    "data": {
-      "cards": [
-        {},
-        {},
-        { "card": { "card": { "info": {
-          "name": "Healthy Khichdi",
-          "cuisines": ["Healthy", "Indian"],
-          "costForTwoMessage": "₹200 for two",
-          "avgRating": 4.6,
-          "cloudinaryImageId": "healthy123"
-        } } } },
-        {},
-        { "groupedCard": { "cardGroupMap": { "REGULAR": { "cards": [ {}, {}, { "card": { "card": { "itemCards": [
-          { "card": { "info": { "id": 1, "name": "Oats Khichdi", "description": "Made with oats and lentils", "price": 16000 } } },
-          { "card": { "info": { "id": 2, "name": "Quinoa Khichdi", "description": "High protein quinoa base", "price": 19000 } } }
+          { "card": { "info": { "id": 1, "name": "Paneer Tikka Platter", "description": "Grilled paneer with dip", "price": 28000 } } },
+          { "card": { "info": { "id": 2, "name": "Classic Mojito", "description": "Refreshing lime mint drink", "price": 15000 } } }
         ] } } } ] } } } }
       ]
     }
