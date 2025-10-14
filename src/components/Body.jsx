@@ -30,6 +30,8 @@ export const Body = () => {
 
   const onlineStatus = useOnlineStatus();
 
+  console.log(onlineStatus);
+
   if (onlineStatus === false)
     return (
       <h1 className="text-center mt-10 text-xl font-semibold text-red-600">
