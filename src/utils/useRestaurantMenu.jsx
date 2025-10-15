@@ -11,7 +11,7 @@ const useRestaurantMenu = (resId) => {
   const fetchMenu = async () => {
     try {
       // ✅ Fetch menu from your backend API (connected to MongoDB)
-      const response = await fetch(`http://localhost:5000/menu/${resId}`);
+      const response = await fetch(`https://atlaserver.onrender.com/menu/${resId}`);
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }

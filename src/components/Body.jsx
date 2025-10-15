@@ -10,7 +10,7 @@ export const Body = () => {
 
   const fetchData = async () => {
     try {
-      const data = await fetch("http://localhost:5000/restaurants"); // 🔁 backend API endpoint
+      const data = await fetch("https://atlaserver.onrender.com/restaurants"); // 🔁 backend API endpoint
       const json = await data.json();
 
       // MongoDB returns clean restaurant objects directly (not nested like Swiggy)
