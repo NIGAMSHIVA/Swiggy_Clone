@@ -1,31 +1,36 @@
-import { useEffect,useState } from "react";
-import RestaurantMenu from "../components/RestaurantsMenu";
+import { useEffect, useState } from "react";
 
-const useRestaurantMenu=(resId)=>{
+const useRestaurantMenu = (resId) => {
+  const [resInfo, setResInfo] = useState(null);
+  const [resMenu, setResMenu] = useState(null);
 
-    const [resInfo,setResInfo]=useState(null);
-    const [resMenu,setResMenu]=useState(null);
+  useEffect(() => {
+    if (resId) fetchMenu();
+  }, [resId]);
 
-    useEffect(()=>{
+  const fetchMenu = async () => {
+    try {
+      // ✅ Fetch menu from your backend API (connected to MongoDB)
+      const response = await fetch(`https://atlaserver.onrender.com/menu/${resId}`);
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
 
-        fetchMenu()
+      const data = await response.json();
 
-    },[])
+      // ✅ Adjust to your MongoDB schema
+      setResInfo({
+        restaurantId: data.restaurantId,
+        restaurantName: data.restaurantName,
+      });
 
+      setResMenu(data.items); // Directly set menu items array
+    } catch (error) {
+      console.error("Error fetching menu:", error);
+    }
+  };
 
-   const fetchMenu = async () => {
-  const response = await fetch("/mockData/restaurantMenus.json");
-  const allMenus = await response.json();
-  const json = allMenus[resId];
-
-  setResMenu(
-    json.data.cards[4].groupedCard.cardGroupMap.REGULAR.cards[2].card.card.itemCards
-  );
-  setResInfo(json.data);
+  return { resInfo, resMenu };
 };
 
-
-    return {resInfo,resMenu};
-    
-}
-export default useRestaurantMenu
+export default useRestaurantMenu;
